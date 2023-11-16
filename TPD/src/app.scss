@@ -1,6 +1,8 @@
 @import './styles/reset';
-@import './components/NavBar/NavBar.scss';
+@import './styles/typography';
+@import './components/NavBar/NavBar';
+@import './styles/animations';
 
 .app {
-  font-family: 'Arial', sans-serif;
+  font-family: $primaryFont;
 }
