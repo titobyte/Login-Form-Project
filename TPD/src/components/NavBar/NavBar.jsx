@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+
 const NavBar = () => {
   //Brings in useState hook to keep track if menu is open
   const [isMenuOpen, setMenuOpen] = useState(false);

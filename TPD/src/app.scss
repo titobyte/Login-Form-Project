@@ -1,8 +1,10 @@
 @import './styles/reset';
 @import './styles/typography';
 @import './components/NavBar/NavBar';
+@import './components/UserForm/UserForm.scss';
 @import './styles/animations';
 
 .app {
   font-family: $primaryFont;
+  font-size: $bodyFont;
 }

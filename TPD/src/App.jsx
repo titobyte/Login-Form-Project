@@ -1,5 +1,6 @@
 import './app.scss'
 import NavBar from './components/NavBar/NavBar'
+import UserForm from './components/UserForm/UserForm';
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className='app'>
       <NavBar />
-      <div className="heading">Hello</div>
+      <h1 className="form-heading">User Form</h1>
+      <UserForm />
     </div>
   );
 }
