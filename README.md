@@ -13,4 +13,5 @@ Must: Display custom error messages and highlight fields with errors using CSS.
 
 ## Project setup
 Pull down this repo <br/>
-run npm create vite@latest
+run npm create vite@latest <br/>
+run npm run dev
