@@ -1,11 +1,16 @@
 .navbar {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,6,94,1) 24%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
   padding: 15px;
   display: flex;
   justify-content:  space-between;
   align-items: center;
+}
+
+.logo {
+  color: white
 }
 
 .menu {
@@ -33,7 +38,7 @@
   }
 
   &.open{
-    background: rgba(0,212,255,1);
+    background: white;
     display: flex;
     flex-direction: column;
     padding-top: 15px;
@@ -43,6 +48,7 @@
     width: 45%;
     height: 100%;
     z-index: 1;
+    color: black;
     
 
     li {

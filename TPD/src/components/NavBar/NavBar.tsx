@@ -1,14 +1,17 @@
+import React from 'react';
 import { useState } from 'react'
 
+interface NavBarProps {
+  // You can define any props if needed
+}
+const NavBar: React.FC<NavBarProps> = () => {
+  // Brings in useState hook to keep track if menu is open
+  const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
 
-const NavBar = () => {
-  //Brings in useState hook to keep track if menu is open
-  const [isMenuOpen, setMenuOpen] = useState(false);
-
-  //event handler to toggle menu open and close
+  // Event handler to toggle menu open and close
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-  }
+  };
 
   return (
     <nav className="navbar">
