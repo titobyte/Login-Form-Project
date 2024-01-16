@@ -1,7 +1,5 @@
 # Login Form Project
 
-I choosen the following coding challenges to develop and share with the development team
-
 1. Build a Responsive Navigation Menu
 Objective: Create a responsive navigation menu that changes from a horizontal bar to a hamburger menu on smaller screens.
 Bonus: Use JavaScript or CSS animations to enhance the hamburger menu's opening and closing actions. 
